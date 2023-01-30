@@ -31,7 +31,7 @@ jobs:
                 -DBUILD_BENCHMARK=ON \
                 -DBUILD_EXAMPLES=ON \
                 -DCMAKE_BUILD_TYPE=Debug \
-                -DDOWNLOAD_DOCTEST=OFF \
+                -DDOWNLOAD_DOCTEST=ON \
                 -G Ninja
       - name: Run build-wrapper
         run: |
